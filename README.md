@@ -1,3 +1,8 @@
+Nama: Muhamad Khansa Khalifaturohman  
+NIM: 1247050115  
+Kelas: IF B  
+---
+
 # MiniKafe (Kopi dan Nyemil) - Android Mobile App
 
 Aplikasi mobile Android modern untuk pemesanan makanan dan minuman kafe (**MiniKafe**), dibangun berdasarkan rancangan desain sistem *Warm Artisanal Coffee* dengan alur lengkap 8 layar interaktif tanpa memerlukan database eksternal (menggunakan *in-memory static/dummy data*).
