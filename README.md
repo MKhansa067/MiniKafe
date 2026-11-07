@@ -72,7 +72,7 @@ Aplikasi mengimplementasikan **8 layar utama** sesuai alur wireframe dan rancang
 
 ---
 
-## 🎨 Desain & UI/UX
+## Desain & UI/UX
 
 Mengacu pada panduan desain sistem **Warm Artisanal Coffee** di `DESIGN.md`:
 - **Warna Utama:**
@@ -87,7 +87,7 @@ Mengacu pada panduan desain sistem **Warm Artisanal Coffee** di `DESIGN.md`:
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - **Platform:** Native Android (Kotlin)
 - **Min SDK:** 35 | **Target/Compile SDK:** 37
@@ -98,7 +98,7 @@ Mengacu pada panduan desain sistem **Warm Artisanal Coffee** di `DESIGN.md`:
 
 ---
 
-## 📸 Screenshot Tampilan Aplikasi
+## Screenshot Tampilan Aplikasi
 
 | 1. Splash & Welcome | 2. Sign Up Hub | 3. Login User | 4. Register |
 | :---: | :---: | :---: | :---: |
