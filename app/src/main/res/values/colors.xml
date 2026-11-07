@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Brand & Theme Colors (Warm Artisanal Coffee) -->
+    <color name="primary">#C87D32</color>
+    <color name="primary_variant">#8A4C00</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="secondary">#2B1A13</color>
+    <color name="secondary_variant">#715950</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <color name="tertiary">#3E7B5C</color>
+    <color name="tertiary_light">#EAF3EE</color>
+    <color name="on_tertiary">#FFFFFF</color>
+
+    <color name="background">#FBF9F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_variant">#EFE8DE</color>
+
+    <color name="text_primary">#1B1C1A</color>
+    <color name="text_secondary">#6E584E</color>
+    <color name="text_muted">#867466</color>
+
+    <color name="border_light">#EFE8DE</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

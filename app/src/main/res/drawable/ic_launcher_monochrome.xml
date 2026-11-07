@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Logo digambar di kanvas 256 lalu diskalakan agar muat di safe zone (66dp) -->
+    <group
+        android:pivotX="128"
+        android:pivotY="128"
+        android:scaleX="0.27"
+        android:scaleY="0.27"
+        android:translateX="-74"
+        android:translateY="-74">
+        <path
+            android:pathData="M56,212V144M56,144A36,36 0 0 1 128,144V212M128,144A36,36 0 0 1 200,144V212"
+            android:strokeColor="#000000"
+            android:strokeWidth="34" />
+        <path
+            android:pathData="M128,44C152,60 152,80 128,96C104,80 104,60 128,44Z"
+            android:fillColor="#000000" />
+    </group>
+</vector>

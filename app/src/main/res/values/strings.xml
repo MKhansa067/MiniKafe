@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MiniKafe</string>
+    <string name="tagline">Get a taste of your wish</string>
+    <string name="brand_subtitle">Kopi dan Nyemil</string>
 </resources>
