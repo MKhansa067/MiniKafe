@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
 
         ViewCompat.setOnApplyWindowInsetsListener(mainLayout) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, 0)
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
@@ -214,6 +214,9 @@ class MainActivity : AppCompatActivity() {
 
                 val firstName = DummyRepository.currentUser.fullName.split(" ").firstOrNull() ?: "Pelanggan"
                 view.findViewById<TextView>(R.id.tvHomeGreeting).text = "Halo $firstName,"
+                view.findViewById<View>(R.id.btnHomeProfile).setOnClickListener {
+                    navigateTo(Screen.PROFILE)
+                }
 
                 val rvMenu = view.findViewById<RecyclerView>(R.id.rvHomeMenuList)
                 rvMenu.layoutManager = LinearLayoutManager(this)

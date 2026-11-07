@@ -8,21 +8,35 @@
     android:orientation="vertical"
     android:padding="24dp">
 
-    <!-- Hero Card / Illustration Container -->
-    <androidx.cardview.widget.CardView
-        android:layout_width="220dp"
-        android:layout_height="220dp"
-        app:cardBackgroundColor="@color/surface_variant"
-        app:cardCornerRadius="110dp"
-        app:cardElevation="0dp">
+    <!-- Hero / Container Logo & Background (Tanpa pemotongan membulat) -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <!-- 1. Background Brewed Cup -->
+
+        <!-- 2. Logo di atas background -->
 
         <ImageView
+            android:id="@+id/ivBrewedCupBg"
+            android:layout_width="550dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="42dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="Brewed Cup Background"
+            android:scaleType="fitCenter"
+            android:src="@drawable/brewed_cup" />
+
+        <ImageView
+            android:id="@+id/ivSplashLogo"
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_gravity="center"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/minikafe_logo_64" />
-    </androidx.cardview.widget.CardView>
+            android:src="@drawable/minikafe_logo" />
+    </FrameLayout>
 
     <TextView
         android:layout_width="wrap_content"
